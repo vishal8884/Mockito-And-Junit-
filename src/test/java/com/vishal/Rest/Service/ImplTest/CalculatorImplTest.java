@@ -24,7 +24,7 @@ public class CalculatorImplTest {
 	@Test
 	public void addTest()
 	{
-		when(addService.addByExternalService(8, 2)).thenReturn(10);   //if you remove this you will get failure
+		when(addService.addByExternalService(8, 2)).thenReturn(10);   //if you remove this you will get failure j
 		assertEquals(10, calculatorImpl.add(8, 2));
 	}
 }
